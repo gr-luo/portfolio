@@ -1,0 +1,313 @@
+.test-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #292627;
+}
+
+.form-wrap {
+  display: none;
+  width: 800px;
+  padding: 30px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border-radius: 10px;
+  box-shadow: 0 5px 23px 0 rgba(62, 63, 74, 0.19);
+}
+
+.col-6 {
+  width: 48.5%;
+}
+
+.mirror-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  margin-bottom: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 30px;
+  background-color: #d8fcff;
+}
+
+.mirror-field.text-area {
+  height: 100px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+  float: right;
+  border-radius: 30px;
+  background-color: #3bc0ff;
+}
+
+.fiel-label {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.html-embed {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.after {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 900px;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #1b191a;
+  box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+}
+
+.list-wrap {
+  min-width: 400px;
+  padding: 15px;
+}
+
+.list-item {
+  position: relative;
+  display: none;
+  margin-bottom: 7px;
+  padding: 15px 15px 15px 35px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #cbf0f4;
+}
+
+.list-icon {
+  position: absolute;
+  height: 20px;
+  margin-left: -25px;
+}
+
+.mylistitem {
+  margin-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.newlink {
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.new-list-item {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #c9f0f3;
+}
+
+.typed-text {
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.type-text-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  padding: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 36px;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.typed-heading {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 14px;
+  margin-left: auto;
+  padding: 7px 25px;
+  color: #ff006d;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+}
+
+.docu-link {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #b8b7b7;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.docu-link:hover {
+  color: #ff006d;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block {
+  margin-bottom: 30px;
+  color: hsla(0, 0.7%, 72%, 0.5);
+  font-size: 12px;
+}
+
+.typed-2 {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.typed-cursor {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.typed-4 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.typed-4.typed-text {
+  display: inline-block;
+}
+
+.typed-texts {
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.texties {
+  margin-top: 42px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.typed-words {
+  width: 100%;
+  padding-left: 70px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+
+.typed-words.typed-text {
+  display: inline-block;
+}
